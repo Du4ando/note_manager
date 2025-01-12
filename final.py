@@ -14,7 +14,6 @@ note = [username,
         status,
         created_date,
         issue_date,
-        title,
-        subtitles
+        title,subtitles
         ]
-print(note)
+print(*note, sep='\n')
